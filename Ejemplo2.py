@@ -9,6 +9,7 @@ from imutils import contours
 import numpy as np
 import imutils
 import cv2
+import keras.activations
 
 # Function to show array of images (intermediate results)
 def show_images(images):
